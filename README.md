@@ -15,6 +15,7 @@
  > 然后在dev分支rebase本地main  
  > 解决rebase冲突  
  > 回到main分支merge dev  
+ > push上传
  ```
  //具体操作
  git switch main
