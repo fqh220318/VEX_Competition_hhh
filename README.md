@@ -9,9 +9,9 @@
  - 或者fork一个自己的仓库
  - 在提交push之前先pull同步一下开发进度
  > 详细做法：  
- > dev分支随便你玩
- > 在需要push上github时
- > 先在main分支底下pull远程main分支  
+ > dev分支随便你玩   
+ > 在需要push上github时   
+ > 先在main分支底下pull远程main分支   
  > 然后在dev分支rebase本地main  
  > 解决rebase冲突  
  > 回到main分支merge dev  
@@ -23,7 +23,7 @@
  git rebase main
 
  //解决冲突
- 
+
  //merge合并push上传
  git switch main
  git merge dev
